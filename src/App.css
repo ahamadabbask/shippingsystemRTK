@@ -1,0 +1,74 @@
+.square {
+  width: 180px;
+  height: 180px;
+  margin-left: 40px;
+  background-image: url("https://img.icons8.com/arcade/512/move-stock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.square:hover{
+  border: solid #42a5f5 2px !important;
+  background-color: #42a4f533 !important;
+}
+.truckbox{
+  width: 70rem !important;
+}
+.SidebarText{
+  height: 55px;
+  text-align: center;
+  color: rgb(201, 196, 196);
+  font-weight: bold;
+  display: flex !important;
+  margin-bottom: 10px;
+
+}
+
+.SidebarText:hover{
+  background-color: #42a4f56c;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+.active{
+  background-color: #42a4f56c;
+  font-size: large;
+  color: rgb(255, 254, 254);
+  border: 2px solid #42a5f5;
+}
+.loading{
+  background-color: rgba(0, 0, 0, 0.582) !important;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: +999;
+  color: whitesmoke;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 45vh !important;
+}
+.imgIcon{
+  width: 45px;
+  /* height: 40px; */
+  margin-right: 5px !important;
+}
+.addParcels{
+  background-image: url("https://minun.posti.fi/hs-fs/hubfs/fastest-parcel.jpg?width=710&name=fastest-parcel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.404) !important;
+  color: azure !important;
+  font-size: large !important;
+  font-weight: bolder !important;
+}
+
+.dashboard-card{
+  background-color: aliceblue;
+  width: 24rem;
+  height: 7rem;
+  border-left: 4px solid;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-right: 6rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
